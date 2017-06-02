@@ -3,19 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import wx from 'weixin-js-sdk'
+import VueResource from 'vue-resource'
 Vue.config.productionTip = false
 
-Vue.use(wx)
-wx.config({
-  debug: false,
-  appId: 'wxabf1c20c98f9cf4c',
-  timestamp: 1421137876,
-  nonceStr: '1aKGAepZjyRSPMox',
-  signature: 'b58bc3c6546c2c83f3281ac465da6e2929cadc04',
-  jsApiList: [
-  ]
-})
+Vue.use(VueResource)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

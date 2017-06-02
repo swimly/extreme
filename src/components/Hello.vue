@@ -21,13 +21,12 @@
 </template>
 
 <script>
-import wx from 'weixin-js-sdk'
+import {wechat} from '../api'
 export default {
   name: 'hello',
   created () {
-    wx.ready(() => {
-      this.getPosition()
-    })
+    console.log('satart')
+    wechat(this)
   },
   data () {
     return {
@@ -35,12 +34,6 @@ export default {
     }
   },
   methods: {
-    getPosition () {
-      console.log('获取位置信息')
-      console.log(wx.getLocation({
-        type: 'wgs84'
-      }))
-    }
   }
 }
 </script>
