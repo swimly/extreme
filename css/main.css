@@ -75,6 +75,17 @@ img{border:none;}
 .goods{background:#fff;display:block;padding:0.5rem;}
 .goods .cover{display:inline-block;width:100%;text-align:center;height:10rem;background:#fff;}
 .goods .name{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;font-size:1.1rem;color:#424242;}
+/*车险报价*/
+.safe-list .row{border-bottom:1px solid #EBEBEB;position:relative;}
+.safe-list .col{width:70%;}
+.safe-list .col:first-child{width:30%;text-align:center;padding:1rem 0;}
+.safe-list .img{width:5.5rem;height:5.5rem;display:inline-block;border:1px solid #E5E5E5;vertical-align: middle;}
+.safe-list .img:before{content:"";display:inline-block;width:0;height:100%;vertical-align: middle;}
+.safe-list .img img{vertical-align:middle;}
+.safe-list .name{font-size:1.2rem;color:#0c0c0c;display:block;margin-bottom:0.6rem;}
+.safe-list i{font-style:normal;font-size:1rem;color:#757575;display:block;}
+.safe-list .rec:after{content:"";display:inline-block;width:5rem;height:5rem;position:absolute;right:0;top:0;background:url(../img/rec.png) no-repeat right top;}
+.safe-list .row:active{background:rgba(0,0,0,0.1);}
 
 .lazyload,
 .lazyloading{opacity: 0;}
