@@ -75,6 +75,10 @@ img{border:none;}
 .goods{background:#fff;display:block;padding:0.5rem;}
 .goods .cover{display:inline-block;width:100%;text-align:center;height:10rem;background:#fff;}
 .goods .name{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;font-size:1.1rem;color:#424242;}
+
+.lazyload,
+.lazyloading{opacity: 0;}
+.lazyloaded{opacity: 1;transition: opacity 500ms;}
 /* 兼容iphone4/4s5/5 */ 
 @media (device-height:480px) and (-webkit-min-device-pixel-ratio:2),(device-height:568px) and (-webkit-min-device-pixel-ratio:2){
 input::-webkit-input-placeholder{transform:translateY(-1px);}
