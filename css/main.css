@@ -5,6 +5,11 @@ h1,h2,h3,h4,h5,h6,b{font-weight:normal;margin:0;}
 *{box-sizing:border-box;}
 a{-webkit-tap-highlight-color:transparent;text-decoration: none;}
 .page{height:100%;overflow:hidden;width:100%;}
+.page.box{display:-webkit-box;}
+.page.box .content{-webkit-box-flex:1;}
+.page.has-footer{padding-bottom:7rem;}
+.footer{height:7rem;}
+.footer .col{padding:0 1rem;}
 ul{padding:0;margin:0;list-style: none;}
 h1,h2,h3,h4,h5,h6,p{margin:0;font-weight:normal;}
 input:focus,select:focus{outline:none;}
@@ -38,6 +43,10 @@ img{border:none;}
 .form.disabled .btn{background-color:#DDDDDD;color:#454545;}
 .form .iconfont{display:inline-block;position:absolute;left:1rem;top:50%;transform:translateY(-50%);font-size:1.8rem;color:#979797;}
 .form input{font-size:1.2rem;padding:1rem;border:1px solid #E6E6E6;width:100%;line-height:normal;}
+.form.line input{border-top:none;border-left:none;border-right:none;margin:0;text-align:right;font-size:1rem;}
+.form .text{position:absolute;left:0;top:50%;transform:translateY(-50%);padding:0 1rem;font-size:1rem;color:#444;}
+.form.ion-right input{padding-right:2rem;}
+.form.ion-right .iconfont{position:absolute;right:0.5rem;top:50%;transform:translate(0,-50%);left:auto;font-size:1rem;}
 /*btn*/
 .btn{display:inline-block;font-size:1.2rem;text-align:center;color:#fff;padding:1rem 3rem;text-decoration:none;border-radius:0.3rem;transition:0.3s;}
 .btn:active{opacity:0.8;}
