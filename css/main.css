@@ -37,7 +37,7 @@ img{border:none;}
 .form-panel .form{margin-bottom:1rem;}
 .form-panel{padding:1rem;}
 .form{display:inline-block;position:relative;}
-.form.icon-left input{padding-left:3.5rem;}
+.form.icon-left input[type=text]{padding-left:3.5rem;}
 .form.has-btn{padding-right:10rem;}
 .form.has-btn .btn{width:9rem;right:0;top:50%;position:absolute;padding:1rem 0;background:#EB3D00;transform:translateY(-50%);}
 .form.disabled .btn{background-color:#DDDDDD;color:#454545;}
